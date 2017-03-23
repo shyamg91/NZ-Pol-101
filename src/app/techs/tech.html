@@ -1,6 +1,12 @@
 <div class="tech">
   <h3 class="tech-h3">
     {{ $ctrl.tech.title }}
+    <span ng-if="$ctrl.tech.id !== '1'" style="    font-size: 10px;
+    margin-left: 65px;
+    background: #55acee;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;">Coming Soon</span>
   </h3>
   <p>{{ $ctrl.tech.text1 }}</p>
   <p>{{ $ctrl.tech.text2 }}</p>
