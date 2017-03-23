@@ -1,0 +1,7 @@
+<div class="techs-container">
+  <div class="techs">
+    <fountain-tech ng-repeat="tech in $ctrl.techs" tech="tech" ui-sref="module({
+      'id' : tech.id
+    })"></fountain-tech>
+  </div>
+</div>

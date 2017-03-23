@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "key": "Learn",
+    "title": "Learn",
+    "text1": "Learn about the system that governs us",
+    "text2": "Understand how the government works and how parties are elected in",
+    "video": "https://s3-ap-southeast-2.amazonaws.com/nz-pol-101/videos/fire+v1.mp4"
+  },
+  {
+    "id": "2",
+    "key": "engage",
+    "title": "Engage",
+    "text1": "Learn how to engage with the system",
+    "text2": "Simulate the experience of enrolling yourself to vote for the first time"
+  },
+  {
+    "id": "3",
+    "key": "voice",
+    "title": "Voice",
+    "text1": "Be involved in government consults",
+    "text2": "Have your say in what laws get passed and are discussed by our politicians"
+  },
+  {
+    "id": "4",
+    "key": "Resist",
+    "title": "Resist",
+    "text1": "Raise your voice against inadequacies that you see within the government",
+    "text2": ""
+  },
+  {
+    "id": "5",
+    "key": "Seek",
+    "title": "Seek",
+    "text1": "Understand means of seeking information from the government",
+    "text2": ""
+  }
+]
