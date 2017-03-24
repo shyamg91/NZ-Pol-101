@@ -1,4 +1,7 @@
-<div style="margin:60px 0px;text-align: center">
-  <h1>Tap to learn how the government works </h1>
-  <video id="vid" ng-src="{{$ctrl.module.video}}" style="width: 288px; height: 513px;"></video>
+<div class="video" tabindex="0" ng-keydown="$ctrl.key($event)">
+  <div class="module" style="margin:60px 0px;text-align: center;outline: none;">
+    <h1>Tap to learn how the government works </h1>
+    <h4 style="font-weight: 100">Click the left and right arrow to move between stories on desktop</h4>
+    <video id="vid" ng-src="{{$ctrl.module.video}}" style="width: 288px; height: 513px;"></video>
+  </div>
 </div>
